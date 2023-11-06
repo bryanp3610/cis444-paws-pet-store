@@ -1,0 +1,74 @@
+.navbar{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    overflow:hidden;
+    background-color: white;
+    
+}
+
+.logo{
+    float:left;
+}
+
+.navcontainer a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding:14px 20px;
+    text-decoration: none;
+    font-size:24px;
+    display:inline;
+    background-color:white;
+    vertical-align: top;
+    /* border-bottom: 1px solid black; */
+}
+
+.navcontainer a:hover{
+    background-color:gainsboro;
+}
+
+.lefts{
+    /* background-color: orange; */
+    display:inline;
+    float:right;
+    font-size:15px;
+    border:none;
+}
+
+.slides img{
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width: auto;
+    height:auto;
+    opacity:65%;
+    
+}
+.slides{
+    text-align: center;
+}
+
+.slides .btn{
+  background-color:grey;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  top:50%;
+  left:50%;
+}
+.slides .textslide{
+    position:absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    left:50px;
+    right:50px;
+    text-align:center;
+    opacity:100%;
+}
