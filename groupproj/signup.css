@@ -1,0 +1,96 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.navbar {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+
+
+.logo {
+  float: left;
+
+}
+
+.navcontainer a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 24px;
+  display: inline;
+  background-color: white;
+  vertical-align: top;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.navcontainer a img {
+  width: 20px;
+  height: 20px;
+}
+
+.navcontainer a:hover {
+  background-color: gainsboro;
+}
+
+.prompt img {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.lefts {
+  display: inline;
+  float: right;
+  font-size: 15px;
+  border: none;
+}
+
+.input-box {
+  margin-bottom: 15px;
+  vertical-align: center;
+
+}
+
+
+.prompt {
+  border: 1px solid black;
+  text-align: center;
+  padding: 200px;
+  position: relative;
+  border-radius: 10.5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+
+}
+
+
+.prompt button {
+  background-color: rgb(40, 117, 233);
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  display: inline;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.prompt button:hover {
+  background-color: green;
+  color: white;
+  transition: 0.7s;
+}

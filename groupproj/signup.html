@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign up!</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="signup.css" type="text/css">
+</head>
+<body>
+  <div class="navbar">
+		<div class="logo">
+			<a class="active" href='home.html'><img src="logo2.jpg" alt="logo"></a>
+		</div>
+		<div class="navcontainer">
+			<a class="active" href='home.html'>Home</a>
+			<a href="about.html">About Us</a>
+			<a href="shop.html">Shop</a>
+			<div class="lefts">
+        <a href="cart.html"><img src="cart.jpg" alt="cart" width="30px" height="30px"></a>
+				<a href="login.html">Log in</a>
+			</div>
+		</div>
+	</div>
+
+<h3> Sign up to get rewards on your purrchases!</h3>
+
+
+
+<div class ='prompt'>
+	<img src="catpaws.png" alt="cat paws" height="85px" width="85px" >
+	<form action="/action_page.php" method="get" >
+		<div class="input-box">
+			<span class="details">First Name</span>
+			<input type="text" id="firstname" placeholder="Enter your first name" required>
+	</div>
+	<div class="input-box">
+			<span class="details">Last Name</span>
+			<input type="text" id="lastname" placeholder="Enter your last name" required>
+	</div>
+	<div class="input-box">
+			<span class="details">User Name</span>
+			<input type="text" id="username" placeholder="Enter your username" required>
+	</div>
+	<div class="input-box">
+			<span class="details">Email</span>
+			<input type="text" id="email" placeholder="Enter your email" required>
+	</div>
+	<div class="input-box">
+			<span class="details">Password</span>
+			<input type="text" id="password" placeholder="Enter your password" required>
+	</div>
+
+	<button id="login" type="submit" form="login" value="Submit">Log in</button>
+
+	<!-- <button onclick="document.getElementById('id1').style.display='block'" style= -->
+	</form>	
+ </div>
+ <script> 
+	const submitButton = document.getElementById("login");
+	submitButton.addEventListener("click",function(){
+		window.location.href= "home.html";
+	})
+
+ </script>
+
+</body>
+</html>
