@@ -1,0 +1,155 @@
+* {
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+img {
+  cursor: pointer;
+  width: 280px;
+  height: 200px;
+
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.container .title {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 3px;
+
+  text-align: center;
+}
+
+.container .products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+
+}
+
+.container .products-container .product {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: white;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  transition: transform 0.3s ease-out-in;
+}
+
+.container .products-container .product:hover {
+  transform: scale(1.02);
+}
+
+.container .products-container .buttons a.cart {
+  background: green;
+  text-decoration: none;
+  color: white;
+  height: 15px;
+  width: 20px;
+}
+
+.container .products-container .buttons a.cart:hover {
+  background: rgb(238, 178, 178);
+  color: black;
+}
+
+
+
+.container .products-container .buttons a.buy {
+  background: green;
+  text-decoration: none;
+  color: white;
+}
+
+.container .products-container .buttons a.buy:hover {
+  background: rgb(238, 178, 178);
+  color: black;
+}
+
+.container .products-container .product h3 {
+  padding: 5rem 0;
+  font-size: 2rem;
+  color: rgb(63, 59, 59);
+}
+
+.container .products-container .product:hover h3 {
+  color: rgb(80, 100, 94);
+}
+
+.navbar {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+.logo {
+  float: left;
+
+}
+
+.navcontainer a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 24px;
+  display: inline;
+  background-color: white;
+  vertical-align: top;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.navcontainer a img {
+  width: 20px;
+  height: 20px;
+}
+
+.navcontainer a:hover {
+  background-color: gainsboro;
+}
+
+.lefts {
+  display: inline;
+  float: right;
+  font-size: 15px;
+  border: none;
+}
+
+
+.prompt {
+  border: 1px solid black;
+  text-align: center;
+  padding: 200px;
+  margin: auto;
+  position: relative;
+  border-radius: 7.5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.prompt button {
+  background-color: rgb(40, 117, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  display: inline;
+}
