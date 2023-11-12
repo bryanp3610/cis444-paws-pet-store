@@ -1,141 +1,98 @@
-.navbar {
+.navbar{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
-    overflow: hidden;
+    overflow:hidden;
     background-color: white;
-
+    
 }
 
-.logo {
+.logo{
+    float:left;
+}
+
+.navcontainer a{
     float: left;
-}
-
-
-ul {
-    list-style: none;
-    background: #ffffff;
-}
-
-ul li {
-    display: inline-block;
-    position: relative;
-}
-
-ul li a {
-    display: block;
-    padding: 20px 25px;
-    color: #FFF;
-    text-decoration: none;
+    color:black;
     text-align: center;
-    font-size: 20px;
-}
-
-ul li ul.dropdown li {
-    display: block;
-}
-
-ul li ul.dropdown {
-    width: 100%;
-    height: 100%;
-    padding: 5%;
-    position: absolute;
-    display: none;
-}
-
-ul li a:hover {
-    background: #dbd8d8;
-}
-
-ul li:hover ul.dropdown {
-    display: block;
-}
-
-.navcontainer a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
+    padding:14px 20px;
     text-decoration: none;
-    font-size: 24px;
-    display: inline;
-    background-color: white;
+    font-size:24px;
+    display:inline;
+    background-color:white;
     vertical-align: top;
     /* border-bottom: 1px solid black; */
 }
 
-.navcontainer a:hover {
-    background-color: #c3bebe;
+.navcontainer a:hover{
+    background-color:gainsboro;
 }
 
-.lefts {
+.lefts{
     /* background-color: orange; */
-    display: inline;
-    float: right;
-    font-size: 15px;
-    border: none;
+    display:inline;
+    float:right;
+    font-size:15px;
+    border:none;
 }
 
-.slides img {
+.slides img{
     display: block;
     text-align: center;
     margin: auto;
     position: relative;
     width: auto;
-    height: auto;
-    opacity: 65%;
-
+    height:auto;
+    opacity:65%;
+    
 }
-
-.slides {
+.slides{
     text-align: center;
 }
 
-.slides .btn {
-    background-color: grey;
-    color: white;
-    font-size: 20px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    position: absolute;
-    text-align: center;
-    top: 60%;
-    left: 50%;
+.slides .btn{
+  background-color:grey;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  top:60%;
+  left:50%;
 }
-
-.slides .textslide {
-    position: absolute;
+.slides .textslide{
+    position:absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    left: 50px;
-    right: 50px;
-    text-align: center;
-    opacity: 100%;
+    left:50px;
+    right:50px;
+    text-align:center;
+    opacity:100%;
 }
 
-.prompt {
+.prompt{
     border: 1px solid black;
     text-align: center;
     padding: 200px;
     margin: auto;
-    position: relative;
+    position:relative;
     border-radius: 7.5px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
-.prompt button {
-    background-color: rgb(40, 117, 233);
-    font-family: Arial, Helvetica, sans-serif;
+.prompt button{
+    background-color:rgb(40, 117, 233);
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     border: none;
-    color: white;
-    padding: 10px 20px 10px 20px;
+    color:white;
+    padding:10px 20px 10px 20px;
     cursor: pointer;
     text-align: center;
-<<<<<<< HEAD
     display:inline;
 }
 
@@ -239,7 +196,13 @@ ul li:hover ul.dropdown {
     from {opacity: .4} 
     to {opacity: 1}
   }
-=======
-    display: inline;
+
+#about {
+  margin: auto;
+  text-align: center;
+  width: 60%;
 }
->>>>>>> 69af74c (added rest of product pages)
+#mission{
+  text-align: center;
+  list-style-position: inside;
+}
