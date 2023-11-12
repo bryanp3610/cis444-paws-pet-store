@@ -10,46 +10,6 @@
     float: left;
 }
 
-
-ul {
-    list-style: none;
-    background: #ffffff;
-}
-
-ul li {
-    display: inline-block;
-    position: relative;
-}
-
-ul li a {
-    display: block;
-    padding: 20px 25px;
-    color: #FFF;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-}
-
-ul li ul.dropdown li {
-    display: block;
-}
-
-ul li ul.dropdown {
-    width: 100%;
-    height: 100%;
-    padding: 5%;
-    position: absolute;
-    display: none;
-}
-
-ul li a:hover {
-    background: #dbd8d8;
-}
-
-ul li:hover ul.dropdown {
-    display: block;
-}
-
 .navcontainer a {
     float: left;
     color: black;
@@ -135,23 +95,23 @@ ul li:hover ul.dropdown {
     padding: 10px 20px 10px 20px;
     cursor: pointer;
     text-align: center;
-<<<<<<< HEAD
-    display:inline;
+    <<<<<<< HEAD display: inline;
 }
 
 /* items in cart */
-.cart{
+.cart {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size:20px;
+    font-size: 20px;
     border: 1px solid black;
     margin: 0px 100px 0px 100px;
 }
+
 /* summary for home page */
-.summary p{
+.summary p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 700;
     border: 1px solid pink;
     border-radius: 7.5px;
@@ -164,10 +124,11 @@ ul li:hover ul.dropdown {
     height: 675px;
     position: relative;
     margin: auto;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -180,21 +141,22 @@ ul li:hover ul.dropdown {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -202,19 +164,19 @@ ul li:hover ul.dropdown {
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -223,23 +185,29 @@ ul li:hover ul.dropdown {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
- .dot:hover {
+}
+
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+/* Fading animation */
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-=======
-    display: inline;
 }
->>>>>>> 69af74c (added rest of product pages)
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+=======display: inline;
+}
+
+>>>>>>>69af74c (added rest of product pages)
