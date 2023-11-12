@@ -46,31 +46,22 @@ body {
   transform: scale(1.02);
 }
 
-.container .products-container .buttons a.cart {
-  background: green;
+.container .products-container .product .buttons a.cart {
+  background: rgb(178, 206, 238);
+  border-radius: 5px;
   text-decoration: none;
-  color: white;
-  height: 15px;
-  width: 20px;
+  color: rgb(0, 0, 0);
+  height: 55px;
+  width: 100px;
 }
 
 .container .products-container .buttons a.cart:hover {
-  background: rgb(238, 178, 178);
-  color: black;
-}
-
-
-
-.container .products-container .buttons a.buy {
   background: green;
-  text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+
+
 }
 
-.container .products-container .buttons a.buy:hover {
-  background: rgb(238, 178, 178);
-  color: black;
-}
 
 .container .products-container .product h3 {
   padding: 5rem 0;
