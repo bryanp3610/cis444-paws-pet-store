@@ -12,9 +12,19 @@
 
 .navcontainer a {
     float: left;
+
+}
+
+.navcontainer a {
+    float: left;
     color: black;
     text-align: center;
     padding: 14px 20px;
+
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+
     text-decoration: none;
     font-size: 24px;
     display: inline;
@@ -24,7 +34,7 @@
 }
 
 .navcontainer a:hover {
-    background-color: #c3bebe;
+    background-color: gainsboro;
 }
 
 .lefts {
@@ -44,6 +54,7 @@
     height: auto;
     opacity: 65%;
 
+
 }
 
 .slides {
@@ -60,7 +71,7 @@
     border-radius: 5px;
     position: absolute;
     text-align: center;
-    top: 60%;
+    top: 40%;
     left: 50%;
 }
 
@@ -95,7 +106,8 @@
     padding: 10px 20px 10px 20px;
     cursor: pointer;
     text-align: center;
-    <<<<<<< HEAD display: inline;
+    display: inline;
+
 }
 
 /* items in cart */
@@ -195,6 +207,7 @@
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+
 }
 
 @keyframes fade {
@@ -207,7 +220,27 @@
     }
 }
 
-=======display: inline;
+
+
+
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
->>>>>>>69af74c (added rest of product pages)
+#about {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+#mission {
+    text-align: center;
+    list-style-position: inside;
+}
