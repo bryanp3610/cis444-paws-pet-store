@@ -27,43 +27,34 @@
 
 <h3> Sign up to get rewards on your purrchases!</h3>
 
-
-
 <div class ='prompt'>
 	<img src="catpaws.png" alt="cat paws" height="85px" width="85px" >
-	<form action="/php/signUp.php" method="get" >
+
+	<form action="php/signUp.php" method="get" >
 		<div class="input-box">
 			<span class="details">First Name</span>
-			<input type="text" id="firstname" placeholder="Enter your first name" required>
+			<input type="text" name="firstname" placeholder="Enter your first name" required>
 	</div>
 	<div class="input-box">
 			<span class="details">Last Name</span>
-			<input type="text" id="lastname" placeholder="Enter your last name" required>
+			<input type="text" name="lastname" placeholder="Enter your last name" required>
 	</div>
 	<div class="input-box">
 			<span class="details">Email</span>
-			<input type="text" id="email" placeholder="Enter your email" required>
+			<input type="text" name="email" placeholder="Enter your email" required>
 	</div>
 	<div class="input-box">
 			<span class="details">Password</span>
-			<input type="password" id="input" placeholder="Enter Password">
-		
+			<input type="password" name="password" placeholder="Enter Password">
 	</div>
 
-	<button id="login" type="submit" form="login" value="Submit">Log in</button>
+	<input type="submit" value="sign up">
 
 	
 	</form>	
+
  </div>
- <script> 
 
-
-	const submitButton = document.getElementById("login");
-	submitButton.addEventListener("click",function(){
-		window.location.href= "home.html";
-	})
-
- </script>
 
 </body>
 </html>
