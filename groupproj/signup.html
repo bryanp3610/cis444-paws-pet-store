@@ -48,13 +48,19 @@
 			<input type="password" name="password" placeholder="Enter Password">
 	</div>
 
-	<input type="submit" value="sign up">
+	<input type="submit" id="submitButton" value="sign up">
 
 	
 	</form>	
-
  </div>
 
+<script>
+	const submitButton = document.getElementById("submitButton");
+	submitButton.addEventListener("click", function (event) {
+		event.preventDefault();
+		window.location.href = 'userPage.html';
+    });
+</script>
 
 </body>
 </html>

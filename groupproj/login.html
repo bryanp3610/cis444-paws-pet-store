@@ -30,12 +30,12 @@
 
 	<div class ='prompt'>
 	 <form action="/action_page.php" method="get" form="login">
-		 <label for="user">Username:</label>
+		 <label for="user">Name:</label>
 		 <input type="text" placeholder="Enter Username"><br/><br/>
 		 <label for="password">Password:</label>
 		 <input type="password" id="input" placeholder="Enter Password"><br/><br/>
 	 <input type="checkbox" onclick="showpass()" style="cursor: pointer;">Show Password <br/><br/>
-	 <button type="submit" form="login" value="Submit">Log in</button>
+	 <button type="submit" id="submitButton" form="login" value="Submit">Log in</button>
 	 <a href="Signup.html" style="text-decoration:none"><button type="submit" form="login" value="#SignUpPage">
 		Sign Up</button></a>
 	 <!-- <button onclick="document.getElementById('id1').style.display='block'" style= -->
@@ -52,6 +52,14 @@
 		 else
 			 x.type="password";
 	 };
+
+	const submitButton = document.getElementById("submitButton");
+	submitButton.addEventListener("click", function (event) {
+        //event.preventDefault(); // Prevent the default form submission behavior
+        
+        window.location.href = 'catToys.html'
+			    });
+
  </script>
 </body>
 </html>

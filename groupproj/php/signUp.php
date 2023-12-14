@@ -13,10 +13,13 @@ $lastName=$_GET['lastname'];
 $email=$_GET['email'];
 $password=$_GET['password'];
 
+/*
 echo($email);
 echo($password);
 echo($firstName);
 echo($lastName);
+debugging 
+*/
 
 $sql="SELECT * FROM $TableName"; //check if user registered already
 $result = $pdo->query($sql);
@@ -25,19 +28,26 @@ while($row = $result->fetch()){
   exit("<p> The email you entered is already in use. Please use another.</p>");
 }
 //insert user into table
-
   $sql="INSERT INTO $TableName VALUES(NULL,:fn,:ln, :em,:ps)";
   $result = $pdo->prepare($sql);
   $result->execute(array(":fn"=>$firstName, ":ln"=>$lastName, ":em"=>$email,":ps"=>$password));
 
-  $row =$result->fetch();
-  $userID=$row['userID'];
- // $_SESSION['userID']=$userID;
-  setcookie("userID",$userID); //setting cookie now
 
-  $pdo = null; //close connection
+  
+  $sql="SELECT * FROM $TableName WHERE firstName = :fn";
+  $result = $pdo->query($sql);
+  if($row = $result->fetch())
+    $firstname = $row['firstName']; 
+  //$_SESSION['userID']=$userID;
+
+    $row =$result->fetch();
+    $userID=$row['userID'];
+    setcookie("userID",$userID); //setting cookie now
+
+    $pdo = null; //close connection
 
 ?>
+
 
 
 
