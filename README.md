@@ -25,7 +25,9 @@ Old shop page
 
 New shop page
 -all items are together
-<img width="400" alt="Screenshot 2023-12-17 at 6 33 35 PM" src="https://github.com/bryanp3610/cis444-paws-pet-store/assets/114526691/1437748b-12ad-43af-a5e4-254a40c68a03">
+
+
+<img width="500" alt="Screenshot 2023-12-17 at 6 33 35 PM" src="https://github.com/bryanp3610/cis444-paws-pet-store/assets/114526691/1437748b-12ad-43af-a5e4-254a40c68a03">
 
 Cart:
 -Can change quantity of items
